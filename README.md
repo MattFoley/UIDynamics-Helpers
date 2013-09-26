@@ -20,5 +20,8 @@ OR
 
 ###MFLBoundaryPreview - Trace Boundaries
 
-This class will allow you to trace all on screen boundaries simply and easily to make it much easier to test your path drawing. Simply change the class of your UIView to MFLBoundaryPreview and it will do the rest of the work for you.
+This class will allow you to trace all on screen boundaries simply and easily to make it much easier to test your path drawing. 
+
+To begin tracing all of your boundaries, change the class of your UIView to MFLBoundaryPreview and set your view's MFLBoundaryPreviewDelegate to your UIViewController, ensuring it has a property named *collisionBehavior*. 
+
 
