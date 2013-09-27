@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3703617917A74ACD008358BD /* FLBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3703617817A74ACD008358BD /* FLBViewController.m */; };
+		3703618617A74B1A008358BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3703617B17A74B1A008358BD /* Default-568h@2x.png */; };
+		3703618717A74B1A008358BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3703617C17A74B1A008358BD /* Default.png */; };
+		3703618817A74B1A008358BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3703617D17A74B1A008358BD /* Default@2x.png */; };
+		3703618917A74B1A008358BD /* pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3703617E17A74B1A008358BD /* pokeball.png */; };
+		3703618A17A74B1A008358BD /* pokeball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3703617F17A74B1A008358BD /* pokeball@2x.png */; };
+		3703618B17A74B1A008358BD /* pokeball_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3703618017A74B1A008358BD /* pokeball_phone.png */; };
+		3703618C17A74B1A008358BD /* pokeball_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3703618117A74B1A008358BD /* pokeball_phone@2x.png */; };
+		3703618D17A74B1A008358BD /* FlickBall-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3703618317A74B1A008358BD /* FlickBall-Info.plist */; };
+		3703618E17A74B1A008358BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3703618517A74B1A008358BD /* main.m */; };
+		37301E33179E3A4D008642D9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37301E32179E3A4D008642D9 /* CoreMotion.framework */; };
+		37579C6F17F4BF380057EAD3 /* star_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 37579C6D17F4BF380057EAD3 /* star_boundary.png */; };
+		37579C7017F4BF380057EAD3 /* star_boundary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37579C6E17F4BF380057EAD3 /* star_boundary@2x.png */; };
+		3773BC16179E3070003B1C0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3773BC15179E306F003B1C0B /* UIKit.framework */; };
+		3773BC18179E3070003B1C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3773BC17179E3070003B1C0B /* Foundation.framework */; };
+		3773BC1A179E3070003B1C0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3773BC19179E3070003B1C0B /* CoreGraphics.framework */; };
+		3773BC20179E3070003B1C0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3773BC1E179E3070003B1C0B /* InfoPlist.strings */; };
+		3773BC26179E3070003B1C0B /* FLBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3773BC25179E3070003B1C0B /* FLBAppDelegate.m */; };
+		3773BC32179E3070003B1C0B /* FLBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3773BC30179E3070003B1C0B /* FLBViewController_iPhone.xib */; };
+		3773BC35179E3070003B1C0B /* FLBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3773BC33179E3070003B1C0B /* FLBViewController_iPad.xib */; };
+		37B52B6A17F5E0D000BB9319 /* MFLAlphaCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B52B5E17F5E0D000BB9319 /* MFLAlphaCollision.m */; };
+		37B52B6B17F5E0D000BB9319 /* PathBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B52B6017F5E0D000BB9319 /* PathBuilder.m */; };
+		37B52B6C17F5E0D000BB9319 /* UIBezierPath+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B52B6217F5E0D000BB9319 /* UIBezierPath+Image.m */; };
+		37B52B6D17F5E0D000BB9319 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B52B6417F5E0D000BB9319 /* UIImage+Rotate.m */; };
+		37B52B6E17F5E0D000BB9319 /* FLBGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B52B6617F5E0D000BB9319 /* FLBGeometry.m */; };
+		37B52B6F17F5E0D000BB9319 /* MFLBoundaryPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B52B6917F5E0D000BB9319 /* MFLBoundaryPreview.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3703617717A74ACD008358BD /* FLBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBViewController.h; sourceTree = "<group>"; };
+		3703617817A74ACD008358BD /* FLBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLBViewController.m; sourceTree = "<group>"; };
+		3703617B17A74B1A008358BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3703617C17A74B1A008358BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3703617D17A74B1A008358BD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3703617E17A74B1A008358BD /* pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokeball.png; sourceTree = "<group>"; };
+		3703617F17A74B1A008358BD /* pokeball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokeball@2x.png"; sourceTree = "<group>"; };
+		3703618017A74B1A008358BD /* pokeball_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokeball_phone.png; sourceTree = "<group>"; };
+		3703618117A74B1A008358BD /* pokeball_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokeball_phone@2x.png"; sourceTree = "<group>"; };
+		3703618317A74B1A008358BD /* FlickBall-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlickBall-Info.plist"; sourceTree = "<group>"; };
+		3703618417A74B1A008358BD /* FlickBall-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlickBall-Prefix.pch"; sourceTree = "<group>"; };
+		3703618517A74B1A008358BD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37301E32179E3A4D008642D9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		37579C6D17F4BF380057EAD3 /* star_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_boundary.png; sourceTree = "<group>"; };
+		37579C6E17F4BF380057EAD3 /* star_boundary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_boundary@2x.png"; sourceTree = "<group>"; };
+		3773BC12179E306F003B1C0B /* FlickBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3773BC15179E306F003B1C0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3773BC17179E3070003B1C0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3773BC19179E3070003B1C0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3773BC1F179E3070003B1C0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3773BC24179E3070003B1C0B /* FLBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLBAppDelegate.h; sourceTree = "<group>"; };
+		3773BC25179E3070003B1C0B /* FLBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLBAppDelegate.m; sourceTree = "<group>"; };
+		3773BC31179E3070003B1C0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLBViewController_iPhone.xib; sourceTree = "<group>"; };
+		3773BC34179E3070003B1C0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLBViewController_iPad.xib; sourceTree = "<group>"; };
+		37B52B5D17F5E0D000BB9319 /* MFLAlphaCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLAlphaCollision.h; sourceTree = "<group>"; };
+		37B52B5E17F5E0D000BB9319 /* MFLAlphaCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLAlphaCollision.m; sourceTree = "<group>"; };
+		37B52B5F17F5E0D000BB9319 /* PathBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathBuilder.h; sourceTree = "<group>"; };
+		37B52B6017F5E0D000BB9319 /* PathBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathBuilder.m; sourceTree = "<group>"; };
+		37B52B6117F5E0D000BB9319 /* UIBezierPath+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Image.h"; sourceTree = "<group>"; };
+		37B52B6217F5E0D000BB9319 /* UIBezierPath+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Image.m"; sourceTree = "<group>"; };
+		37B52B6317F5E0D000BB9319 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		37B52B6417F5E0D000BB9319 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		37B52B6517F5E0D000BB9319 /* FLBGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBGeometry.h; sourceTree = "<group>"; };
+		37B52B6617F5E0D000BB9319 /* FLBGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLBGeometry.m; sourceTree = "<group>"; };
+		37B52B6817F5E0D000BB9319 /* MFLBoundaryPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLBoundaryPreview.h; sourceTree = "<group>"; };
+		37B52B6917F5E0D000BB9319 /* MFLBoundaryPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLBoundaryPreview.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3773BC0F179E306F003B1C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37301E33179E3A4D008642D9 /* CoreMotion.framework in Frameworks */,
+				3773BC16179E3070003B1C0B /* UIKit.framework in Frameworks */,
+				3773BC18179E3070003B1C0B /* Foundation.framework in Frameworks */,
+				3773BC1A179E3070003B1C0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3703617617A74ACD008358BD /* Gravity */ = {
+			isa = PBXGroup;
+			children = (
+				3773BC30179E3070003B1C0B /* FLBViewController_iPhone.xib */,
+				3773BC33179E3070003B1C0B /* FLBViewController_iPad.xib */,
+				3703617717A74ACD008358BD /* FLBViewController.h */,
+				3703617817A74ACD008358BD /* FLBViewController.m */,
+			);
+			path = Gravity;
+			sourceTree = "<group>";
+		};
+		3703617A17A74B1A008358BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37579C6D17F4BF380057EAD3 /* star_boundary.png */,
+				37579C6E17F4BF380057EAD3 /* star_boundary@2x.png */,
+				3703617B17A74B1A008358BD /* Default-568h@2x.png */,
+				3703617C17A74B1A008358BD /* Default.png */,
+				3703617D17A74B1A008358BD /* Default@2x.png */,
+				3703617E17A74B1A008358BD /* pokeball.png */,
+				3703617F17A74B1A008358BD /* pokeball@2x.png */,
+				3703618017A74B1A008358BD /* pokeball_phone.png */,
+				3703618117A74B1A008358BD /* pokeball_phone@2x.png */,
+			);
+			name = Resources;
+			path = "Supporting Files/Resources";
+			sourceTree = "<group>";
+		};
+		3703618217A74B1A008358BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3703618317A74B1A008358BD /* FlickBall-Info.plist */,
+				3703618417A74B1A008358BD /* FlickBall-Prefix.pch */,
+				3703618517A74B1A008358BD /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3773BC09179E306F003B1C0B = {
+			isa = PBXGroup;
+			children = (
+				3773BC1B179E3070003B1C0B /* FlickBall */,
+				3773BC14179E306F003B1C0B /* Frameworks */,
+				3773BC13179E306F003B1C0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3773BC13179E306F003B1C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3773BC12179E306F003B1C0B /* FlickBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3773BC14179E306F003B1C0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37301E32179E3A4D008642D9 /* CoreMotion.framework */,
+				3773BC15179E306F003B1C0B /* UIKit.framework */,
+				3773BC17179E3070003B1C0B /* Foundation.framework */,
+				3773BC19179E3070003B1C0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3773BC1B179E3070003B1C0B /* FlickBall */ = {
+			isa = PBXGroup;
+			children = (
+				37B52B5B17F5E0D000BB9319 /* MFLDynamicsHelpers */,
+				3773BC24179E3070003B1C0B /* FLBAppDelegate.h */,
+				3773BC25179E3070003B1C0B /* FLBAppDelegate.m */,
+				3703617617A74ACD008358BD /* Gravity */,
+				3773BC1C179E3070003B1C0B /* Supporting Files */,
+				3703618217A74B1A008358BD /* Supporting Files */,
+			);
+			path = FlickBall;
+			sourceTree = "<group>";
+		};
+		3773BC1C179E3070003B1C0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3703617A17A74B1A008358BD /* Resources */,
+				3773BC1E179E3070003B1C0B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B52B5B17F5E0D000BB9319 /* MFLDynamicsHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				37B52B5C17F5E0D000BB9319 /* Alpha Only Collision */,
+				37B52B6517F5E0D000BB9319 /* FLBGeometry.h */,
+				37B52B6617F5E0D000BB9319 /* FLBGeometry.m */,
+				37B52B6717F5E0D000BB9319 /* Preview Boundaries */,
+			);
+			path = MFLDynamicsHelpers;
+			sourceTree = SOURCE_ROOT;
+		};
+		37B52B5C17F5E0D000BB9319 /* Alpha Only Collision */ = {
+			isa = PBXGroup;
+			children = (
+				37B52B5D17F5E0D000BB9319 /* MFLAlphaCollision.h */,
+				37B52B5E17F5E0D000BB9319 /* MFLAlphaCollision.m */,
+				37B52B5F17F5E0D000BB9319 /* PathBuilder.h */,
+				37B52B6017F5E0D000BB9319 /* PathBuilder.m */,
+				37B52B6117F5E0D000BB9319 /* UIBezierPath+Image.h */,
+				37B52B6217F5E0D000BB9319 /* UIBezierPath+Image.m */,
+				37B52B6317F5E0D000BB9319 /* UIImage+Rotate.h */,
+				37B52B6417F5E0D000BB9319 /* UIImage+Rotate.m */,
+			);
+			path = "Alpha Only Collision";
+			sourceTree = "<group>";
+		};
+		37B52B6717F5E0D000BB9319 /* Preview Boundaries */ = {
+			isa = PBXGroup;
+			children = (
+				37B52B6817F5E0D000BB9319 /* MFLBoundaryPreview.h */,
+				37B52B6917F5E0D000BB9319 /* MFLBoundaryPreview.m */,
+			);
+			path = "Preview Boundaries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3773BC11179E306F003B1C0B /* FlickBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3773BC38179E3070003B1C0B /* Build configuration list for PBXNativeTarget "FlickBall" */;
+			buildPhases = (
+				3773BC0E179E306F003B1C0B /* Sources */,
+				3773BC0F179E306F003B1C0B /* Frameworks */,
+				3773BC10179E306F003B1C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickBall;
+			productName = FlickBall;
+			productReference = 3773BC12179E306F003B1C0B /* FlickBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3773BC0A179E306F003B1C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FLB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = teejay;
+			};
+			buildConfigurationList = 3773BC0D179E306F003B1C0B /* Build configuration list for PBXProject "FlickBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3773BC09179E306F003B1C0B;
+			productRefGroup = 3773BC13179E306F003B1C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3773BC11179E306F003B1C0B /* FlickBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3773BC10179E306F003B1C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3703618617A74B1A008358BD /* Default-568h@2x.png in Resources */,
+				37579C6F17F4BF380057EAD3 /* star_boundary.png in Resources */,
+				3703618C17A74B1A008358BD /* pokeball_phone@2x.png in Resources */,
+				3773BC20179E3070003B1C0B /* InfoPlist.strings in Resources */,
+				3703618817A74B1A008358BD /* Default@2x.png in Resources */,
+				37579C7017F4BF380057EAD3 /* star_boundary@2x.png in Resources */,
+				3703618D17A74B1A008358BD /* FlickBall-Info.plist in Resources */,
+				3703618B17A74B1A008358BD /* pokeball_phone.png in Resources */,
+				3703618717A74B1A008358BD /* Default.png in Resources */,
+				3773BC32179E3070003B1C0B /* FLBViewController_iPhone.xib in Resources */,
+				3703618917A74B1A008358BD /* pokeball.png in Resources */,
+				3703618A17A74B1A008358BD /* pokeball@2x.png in Resources */,
+				3773BC35179E3070003B1C0B /* FLBViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3773BC0E179E306F003B1C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B52B6E17F5E0D000BB9319 /* FLBGeometry.m in Sources */,
+				37B52B6F17F5E0D000BB9319 /* MFLBoundaryPreview.m in Sources */,
+				3703617917A74ACD008358BD /* FLBViewController.m in Sources */,
+				3773BC26179E3070003B1C0B /* FLBAppDelegate.m in Sources */,
+				37B52B6B17F5E0D000BB9319 /* PathBuilder.m in Sources */,
+				37B52B6C17F5E0D000BB9319 /* UIBezierPath+Image.m in Sources */,
+				3703618E17A74B1A008358BD /* main.m in Sources */,
+				37B52B6D17F5E0D000BB9319 /* UIImage+Rotate.m in Sources */,
+				37B52B6A17F5E0D000BB9319 /* MFLAlphaCollision.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3773BC1E179E3070003B1C0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3773BC1F179E3070003B1C0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3773BC30179E3070003B1C0B /* FLBViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3773BC31179E3070003B1C0B /* en */,
+			);
+			name = FLBViewController_iPhone.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3773BC33179E3070003B1C0B /* FLBViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3773BC34179E3070003B1C0B /* en */,
+			);
+			name = FLBViewController_iPad.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3773BC36179E3070003B1C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3773BC37179E3070003B1C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3773BC39179E3070003B1C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickBall/Supporting Files/FlickBall-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FlickBall/Supporting Files/FlickBall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3773BC3A179E3070003B1C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickBall/Supporting Files/FlickBall-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FlickBall/Supporting Files/FlickBall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3773BC0D179E306F003B1C0B /* Build configuration list for PBXProject "FlickBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3773BC36179E3070003B1C0B /* Debug */,
+				3773BC37179E3070003B1C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3773BC38179E3070003B1C0B /* Build configuration list for PBXNativeTarget "FlickBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3773BC39179E3070003B1C0B /* Debug */,
+				3773BC3A179E3070003B1C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3773BC0A179E306F003B1C0B /* Project object */;
+}

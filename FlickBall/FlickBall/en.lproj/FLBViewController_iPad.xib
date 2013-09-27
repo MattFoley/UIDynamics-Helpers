@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FLBViewController">
+            <connections>
+                <outlet property="starBoundaryImage" destination="w6o-7g-FVY" id="aDY-jQ-cSy"/>
+                <outlet property="view" destination="2" id="3"/>
+                <outletCollection property="flickViews" destination="Qjg-ec-lIx" collectionClass="NSMutableArray" id="pmV-sI-NkU"/>
+                <outletCollection property="flickViews" destination="uvH-1C-vUF" collectionClass="NSMutableArray" id="goE-fa-Lu1"/>
+                <outletCollection property="flickViews" destination="Zry-sv-aTd" collectionClass="NSMutableArray" id="nsD-sB-YU2"/>
+                <outletCollection property="flickViews" destination="IeR-Dj-JBF" collectionClass="NSMutableArray" id="zap-Wf-YvB"/>
+                <outletCollection property="flickViews" destination="tzQ-PF-W1i" collectionClass="NSMutableArray" id="GmP-mK-fH6"/>
+                <outletCollection property="flickViews" destination="Tpf-Sp-J9W" collectionClass="NSMutableArray" id="skp-Uc-Go0"/>
+                <outletCollection property="flickViews" destination="bGB-qU-aMJ" collectionClass="NSMutableArray" id="9EP-OY-YL3"/>
+                <outletCollection property="flickViews" destination="z8G-Ct-KQD" collectionClass="NSMutableArray" id="A0k-kg-hDJ"/>
+                <outletCollection property="flickViews" destination="sZi-9c-niL" collectionClass="NSMutableArray" id="deU-rS-sq8"/>
+                <outletCollection property="flickViews" destination="ylP-MQ-gjn" collectionClass="NSMutableArray" id="18U-Ls-bbo"/>
+                <outletCollection property="flickViews" destination="pmO-Zm-Is8" collectionClass="NSMutableArray" id="xuh-aJ-Dke"/>
+                <outletCollection property="flickViews" destination="sD7-bW-bTf" collectionClass="NSMutableArray" id="Fgd-RI-5bD"/>
+                <outletCollection property="flickViews" destination="EWD-lh-Pqq" collectionClass="NSMutableArray" id="O9E-Ek-X8h"/>
+                <outletCollection property="flickViews" destination="o1f-0J-CdY" collectionClass="NSMutableArray" id="4Wi-hm-Q09"/>
+                <outletCollection property="flickViews" destination="MuT-GQ-dO9" collectionClass="NSMutableArray" id="DyL-hp-xR1"/>
+                <outletCollection property="flickViews" destination="7VB-xT-jES" collectionClass="NSMutableArray" id="jbY-wC-zAl"/>
+                <outletCollection property="flickViews" destination="Ej0-2A-0HL" collectionClass="NSMutableArray" id="Mls-6L-OjE"/>
+                <outletCollection property="flickViews" destination="1go-KD-mZi" collectionClass="NSMutableArray" id="cSs-HE-z1i"/>
+                <outletCollection property="flickViews" destination="4hh-By-gap" collectionClass="NSMutableArray" id="lS2-au-hSv"/>
+                <outletCollection property="flickViews" destination="vk2-GD-Tn6" collectionClass="NSMutableArray" id="AVB-Au-EaG"/>
+                <outletCollection property="flickViews" destination="VHi-uh-a1Y" collectionClass="NSMutableArray" id="KCT-Ry-1fl"/>
+                <outletCollection property="flickViews" destination="aVc-ka-W9g" collectionClass="NSMutableArray" id="xqs-jN-LYm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qjg-ec-lIx">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="uvH-1C-vUF">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zry-sv-aTd">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="IeR-Dj-JBF">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="tzQ-PF-W1i">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tpf-Sp-J9W">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="bGB-qU-aMJ">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="z8G-Ct-KQD">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="sZi-9c-niL">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="pmO-Zm-Is8">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="aVc-ka-W9g">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="sD7-bW-bTf">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="VHi-uh-a1Y">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="vk2-GD-Tn6">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-By-gap">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="1go-KD-mZi">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ej0-2A-0HL">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="7VB-xT-jES">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="MuT-GQ-dO9">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="o1f-0J-CdY">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="EWD-lh-Pqq">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokeball_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="ylP-MQ-gjn">
+                    <rect key="frame" x="364" y="20" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star_boundary.png" translatesAutoresizingMaskIntoConstraints="NO" id="w6o-7g-FVY">
+                    <rect key="frame" x="298" y="262" width="100" height="95"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="p0F-fe-kjG" appends="YES" id="JRl-8r-2iM"/>
+                <outletCollection property="gestureRecognizers" destination="d7e-4R-hYS" appends="YES" id="cAm-Sw-hLl"/>
+            </connections>
+        </view>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="p0F-fe-kjG">
+            <connections>
+                <action selector="handlePan:" destination="-1" id="qsf-tD-q6h"/>
+            </connections>
+        </panGestureRecognizer>
+        <tapGestureRecognizer id="d7e-4R-hYS">
+            <connections>
+                <action selector="resetPosition:" destination="-1" id="Njg-th-ZLT"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="pokeball_phone.png" width="75" height="75"/>
+        <image name="star_boundary.png" width="100" height="95"/>
+    </resources>
+</document>

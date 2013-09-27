@@ -16,6 +16,6 @@
 
 @interface MFLBoundaryPreview : UIView
 
-@property (weak) IBOutlet id<MFLBoundaryPreview> delegate;
+@property (weak) IBOutlet id<MFLBoundaryPreviewDelegate> delegate;
 
 @end
