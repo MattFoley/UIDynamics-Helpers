@@ -23,6 +23,8 @@
 
 - (void)viewDidLoad
 {
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"apple_linen"]]];
+    
     CGImageRef cgImage = [self.flickViews[0] image].CGImage;
     UIBezierPath *ballPath = [[[PathBuilder alloc] initWithMask:cgImage] path];
     UIImage *ballPathImage = [ballPath strokeImageWithColor:[UIColor blackColor]];
@@ -61,13 +63,6 @@
     [self.animator addBehavior:collisionBehavior];
     
     [self.view setNeedsDisplay];
-   /* MFLAlphaCollision *starCollision = [[MFLAlphaCollision alloc] initWithImageView:self.starBoundaryImage forIdentifier:@"starBoundary"];
-    
-    [self.flickViews enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        [starCollision addItem:obj];
-    }];
-    [starCollision setCollisionMode:UICollisionBehaviorModeBoundaries];
-    [self.animator addBehavior:starCollision];*/
     
 }
 
