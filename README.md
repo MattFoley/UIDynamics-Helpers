@@ -9,7 +9,7 @@ This repository is filled with helping code for UIDynamics stuff. All of the UID
 This class will help you create a boundary behavior for any arbitrary image. It will trace any non zero alpha pixels in an image, and then construct a UIBezierPath from the result to use as a boundary.
 
          [MFLAlphaCollision addBoundaryToBehavior:self.collisionBehavior
-                                         withView:self.boundaryImageView
+                                    withImageView:self.boundaryImageView
                                     forIdentifier:@"someIdentifier"];
                                
 OR
