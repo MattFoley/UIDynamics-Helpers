@@ -36,6 +36,7 @@
     UIImage *flippedImage = [imageView.image imageRotatedByDegrees:180];
     
     UIBezierPath *viewPath = [[[PathBuilder alloc] initWithMask:flippedImage.CGImage] path];
+    [viewPath setMiterLimit:20];
     [viewPath applyTransform:CGAffineTransformMakeTranslation(imageView.frame.origin.x, imageView.frame.origin.y)];
     [behavior addBoundaryWithIdentifier:identifier forPath:viewPath];
 }

@@ -185,7 +185,7 @@
 	//	until all line segments have been consumed.
 	
 	UIBezierPath *path = [UIBezierPath bezierPath];
-	
+	[path setLineJoinStyle:kCGLineJoinRound];
 	// While we still have line segments to consume, unwind one bezier path
 	while ( [segments count] > 0 )
 		[self unwindOneSegmentPath:segments intoPath:path];
@@ -318,7 +318,7 @@
 		*point2 = newPoint;
 	} else {
 		// We changed direction, so flush the current segment, and reset the cache
-		[path addLineToPoint:*point2];
+		[path addQuadCurveToPoint:*point2 controlPoint:*point1];
 		
 		*point1 = *point2;
 		*point2 = newPoint;		
