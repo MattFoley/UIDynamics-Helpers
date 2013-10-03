@@ -25,3 +25,4 @@ This class will allow you to trace all on screen boundaries simply and easily to
 To begin tracing all of your boundaries, change the class of your UIView to MFLBoundaryPreview and set your view's MFLBoundaryPreviewDelegate to your UIViewController, ensuring it has a property named *collisionBehavior*. 
 
 
+Thanks to Andy Finnell for his Magic Wand implementation for inspiration: http://losingfight.com/blog/2007/08/28/how-to-implement-a-magic-wand-tool/
