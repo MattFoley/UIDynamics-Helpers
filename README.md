@@ -26,3 +26,7 @@ To begin tracing all of your boundaries, change the class of your UIView to MFLB
 
 
 Thanks to Andy Finnell for his Magic Wand implementation for inspiration: http://losingfight.com/blog/2007/08/28/how-to-implement-a-magic-wand-tool/
+
+
+###Shameless Self Promotion
+Consider this repository under the Beerware License, of which I will collect on if you're ever in Chicago. If you feel like showing your appreciation, drop me a couple bucks at the Binpress page for this control: http://www.binpress.com/app/uidynamics-helpers/1643
